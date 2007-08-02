@@ -11,6 +11,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Test::More' => 0,
     },
+    EXE_FILES           => ['blocklist_updater', ],
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean               => { FILES => 'Net-Google-SafeBrowsing-UpdateRequest-*' },
 );
