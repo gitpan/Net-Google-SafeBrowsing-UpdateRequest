@@ -6,6 +6,5 @@ README
 lib/Net/Google/SafeBrowsing/UpdateRequest.pm
 t/00-load.t
 t/boilerplate.t
-t/pod-coverage.t
 t/pod.t
 blocklist_updater
