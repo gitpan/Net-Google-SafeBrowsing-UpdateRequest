@@ -22,7 +22,7 @@ blocklist.
 =head1 SYNOPSIS
 
 blocklist_updater --apikey=<arg> --dbfile=<arg> --blocklist=<arg>
-[--updatefile=<arg>]
+[--updatefile=<arg>] [--keysfile=<args>]
 
 =head1 ARGUMENTS
 

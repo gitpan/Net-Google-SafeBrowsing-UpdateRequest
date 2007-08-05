@@ -1,4 +1,4 @@
-#   Copyright 2007 Daniel Born
+#   Copyright 2007 Daniel Born <danborn@cpan.org>
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -56,7 +56,7 @@ use Digest::MD5;
 use MIME::Base64;
 use DB_File;
 use Net::Google::SafeBrowsing::Blocklist qw(:all);
-our $VERSION = '1.03';
+our $VERSION = '1.04';
 
 =item Net::Google::SafeBrowsing::UpdateRequest->new($apikey, $dbfile,
     $blocklist, $reqfile, $keysfile, $skip_mac)

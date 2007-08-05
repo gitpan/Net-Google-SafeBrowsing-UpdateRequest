@@ -5,6 +5,9 @@ Makefile.PL
 README
 lib/Net/Google/SafeBrowsing/UpdateRequest.pm
 t/00-load.t
-t/boilerplate.t
+t/01-updater.t
 t/pod.t
 blocklist_updater
+testdata/getkey.txt
+testdata/update.txt
+testdata/update01.txt
