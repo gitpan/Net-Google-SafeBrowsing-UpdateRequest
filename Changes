@@ -1,5 +1,8 @@
 Revision history for Net-Google-SafeBrowsing-UpdateRequest
 
+1.05    2007/08/05
+        Fix automated tests?
+
 1.04    2007/08/05
         Wrote some tests. Fixed Makefile.PL and dependencies.
 
