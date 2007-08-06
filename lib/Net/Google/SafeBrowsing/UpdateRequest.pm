@@ -56,7 +56,7 @@ use Digest::MD5;
 use MIME::Base64;
 use DB_File;
 use Net::Google::SafeBrowsing::Blocklist qw(:all);
-our $VERSION = '1.05';
+our $VERSION = '1.06';
 
 =item Net::Google::SafeBrowsing::UpdateRequest->new($apikey, $dbfile,
     $blocklist, $reqfile, $keysfile, $skip_mac)
